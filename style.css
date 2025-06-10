@@ -1,0 +1,60 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #e3f2fd, #ffffff);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color:#1fe2a1; 
+  font-size: 2em;
+}
+
+input {
+  padding: 10px 15px;
+  font-size: 16px;
+  width: 300px;
+  border: 2px solid #1fe2a1;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  border-color: #1fa7c9;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #1fe2a1;
+  color: rgb(22, 21, 21);
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #91bda0;
+}
+
+p#saida {
+  margin-top: 30px;
+  font-size: 20px;
+  color: #333;
+  min-height: 24px;
+}
